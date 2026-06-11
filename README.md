@@ -16,10 +16,11 @@ Python (scikit-learn, pandas, Streamlit)
 - Visual trends in speculative fiction growth over time
 
 ## Structure
-- `Home_Page.py` — main Streamlit app entry point
-- `pages/` — additional app pages
-- `data/` — processed novel metadata
-- `requirements.txt` — Python dependencies
+- `Home_Page.py` — main Streamlit app code
+- `pages/01_Methodology.py` — methodology and model training details
+- `pages/02_Interactive_Visualizations.py` — code for interactive data visualizations
+- `pages/03_Summary_and_Ethics.py` — page for results and summary
+- `data/` — contains cleaned csv of processed novel metadata
 
 ## Notes
 Built as a course project (CS234, Fall 2025).
